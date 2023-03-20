@@ -1,0 +1,196 @@
+body { 
+    font-family: 'Montserrat, sans-serif';
+}
+
+
+#title {
+background-color: rgb(155, 0, 194);
+position: static;
+padding: 3% 13% 5%  13%;
+
+z-index: -1;
+
+
+}
+
+.navMy {
+    background-color: rgb(155, 0, 194);
+    
+
+}
+
+
+
+
+h1 { font-size: 3rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+    color: white;
+margin-bottom: 8%;}
+
+    .navBrand {
+font-size:  200%;
+font-weight: bold;
+
+    }
+    h2{
+        font-size: 2.5rem;  
+        line-height: 1.5;  
+        font-weight: 900;
+        
+       }
+
+    .navItems {
+        font-size: 0.6 rem;
+    }
+
+    .navContainer {
+        padding-left: 0;
+    }
+
+    .btnMy {
+        margin-left: 2%;
+    }
+
+    .belowNav {
+        margin-top: 7%;
+    }
+    
+    .iphone {
+        margin: 5%;
+        top: 14%;
+        left: 61%;
+        width: 16%;
+        transform: rotate(25deg);
+        position: absolute;
+        
+    
+       
+    }
+    @media (max-width: 1008px) {
+       .iphone {
+        position: static;
+        transform: rotate(0deg);
+        width: 50%;
+margin-top: 5%;
+       } 
+       #title {
+        text-align: center;
+       }
+    }
+
+    /* features */
+
+#features {
+    position:  relative;
+ background-color: white;
+    z-index: 1;
+}
+   .featuresSection {
+    
+   
+    text-align: center;
+    padding: 8% 15%;
+    
+   }
+   .iconsOnfeatures {
+
+   font-size: 300%;
+    color:  rgb(155, 0, 194);
+   }
+
+   .divFeatures {
+   
+    padding: 0% 5% 0% 5%;
+    
+   }
+   .iconsOnfeatures:hover {
+   color:  rgb(99, 12, 121);
+   }
+
+/*Testimonials*/
+
+.testimonialsSection {
+    padding: 10% 10% 10% 10%;
+    text-align: center;
+}
+   #testimonials{
+    background-color:  rgb(155, 0, 194);;
+    
+    
+    
+   }
+   
+   .h2Testimonials {
+    font-size: 2.5rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+    color: white;
+   }
+
+   .dogProfileText {
+    color: white;
+    font-size: 1 rem;
+   }
+
+   .imgDog {
+    margin: 2% 2% 2% 12%;
+    width: 10%;
+    border-radius: 100%;
+   }
+
+   #press {
+    background-color:  rgb(155, 0, 194);
+    padding: 10% 5% 0% 12%;
+   }
+
+   .press-logo {
+    width: 15%;
+margin: 0% 5% 12% 2%;    
+   }
+   /*Pricing section*/
+#pricing {
+    padding: 0% 5% 5% 5% ;
+    
+}
+   .card-section {
+    text-align: center;
+    margin: 4%;
+   }
+
+   .pricingText {
+    padding-top: 5%;
+    text-align: center;
+   }
+
+
+   /* footer */
+#cta { 
+      text-align: center;
+padding: 10%;
+
+ background-color:  rgb(155, 0, 194); }
+   
+   #footer {
+    background-color:  rgb(155, 0, 194); 
+    text-align: center;
+    color: white;
+    padding: 4% 0% 4%;
+   }
+
+.footerH3 {
+    color: white;
+    padding-bottom: 10%;
+}
+
+hr {
+    padding: 0;
+    margin: 0;
+}
+
+.footerIcons {
+   margin: 0.5%;
+}
+.footerIcons:hover  {
+    color: blue;
+}
